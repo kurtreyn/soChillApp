@@ -1,11 +1,12 @@
+import React, { useState } from 'react';
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
-import Main from './components/Main';
 
-export default function App() {
+export default function Main() {
   return (
     <View style={styles.container}>
-      <Main />
+      <Text>Welcome to soChill Media</Text>
+      <StatusBar style="auto" />
     </View>
   );
 }
